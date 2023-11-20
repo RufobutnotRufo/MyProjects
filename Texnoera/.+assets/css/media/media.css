@@ -1,0 +1,585 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0 26px;
+  }
+  #introduction .introduction-content .card-services .cards a .card-programming {
+    padding-left: 8px;
+  }
+  #introduction .introduction-content .card-services .cards a .onion {
+    width: 109px;
+    left: 24%;
+    bottom: 90px;
+  }
+  #introduction .introduction-content .card-services .cards a .onion img {
+    width: 115px;
+  }
+  #tab .tab-panel .programming .video {
+    margin-top: 0;
+  }
+  #contact .contact-box {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  #contact .contact-box .contact-address .contact-info {
+    font-size: 18px;
+  }
+  #contact .contact-box .contact-form .sharp-logo {
+    bottom: 136px;
+  }
+  #students {
+    padding: 72px 20px;
+  }
+  #teacher .trainers-img .parent .event-bcg-img .frame {
+    left: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #introduction .container {
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 0;
+  }
+  #introduction .container .header header nav {
+    display: none;
+  }
+  #introduction .container .header header #subMenu {
+    display: block;
+  }
+  #introduction .container .introduction-content .list-services {
+    width: 100%;
+  }
+  #introduction .container .introduction-content h1 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  #introduction .container .introduction-content .card-services {
+    width: 100%;
+  }
+  #introduction .container .introduction-content .card-services .cards {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #introduction .container .introduction-content .card-services .cards a {
+    width: 100%;
+  }
+  #introduction .container .introduction-content .card-services .cards a div {
+    width: 100%;
+    margin-bottom: 15px;
+    transform: rotate(0deg);
+    top: 0;
+  }
+  #introduction .container .introduction-content .card-services .cards a div .onion {
+    width: 250px;
+    position: absolute;
+    left: 32.6%;
+    top: 15px;
+  }
+  #introduction .container .introduction-content .card-services .cards a div .onion img {
+    position: relative;
+    left: 25%;
+    bottom: 187px;
+    transform: rotate(90deg);
+  }
+  #about .about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  #about .about-main .about-video {
+    width: 100%;
+  }
+  #about .about-main .about-video img {
+    width: 100%;
+  }
+  .container-fluid {
+    margin: 0 auto;
+    width: 720px;
+  }
+  .container-fluid .container2 {
+    padding: 0 16px;
+  }
+  .container-fluid .container2 #our-partners .partners {
+    display: none;
+  }
+  .container-fluid .container2 #tab {
+    margin-top: 65px;
+  }
+  .container-fluid .container2 #tab .tabs-wrapper ul li {
+    font-size: 16px;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description {
+    width: 50%;
+    padding: 0;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description .buttons .apply {
+    padding: 16px 31px;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description .buttons .more {
+    padding: 0;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description h3 {
+    font-size: 18px;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .description p {
+    font-size: 14px;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .video {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .video .video-border {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .video .video-border img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container-fluid .container2 #tab .tab-content .tab-panel .programming .video .author-video {
+    width: 100%;
+    margin: 0;
+  }
+  .container-fluid #teacher {
+    margin: 35px 16px;
+    padding-bottom: 35px;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img img {
+    border-radius: 10px;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info .position {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info .position .social img {
+    border-radius: 0;
+    margin-top: 1px;
+  }
+  .container-fluid #teacher .trainers-img .parent .event-bcg-img {
+    display: none;
+  }
+  #students {
+    margin: 0 auto;
+    padding: 32px 20px;
+  }
+  #students .swiper .swiper-wrapper .student-box .student {
+    height: 100%;
+    padding: 0;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-img {
+    width: 50%;
+    height: 414px;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-img img {
+    width: 100%;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-info {
+    padding: 0 16px;
+    width: 50%;
+  }
+  #contact .container-fluid {
+    margin: 0 auto;
+    width: 720px;
+  }
+  #contact .container-fluid .contact-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .container-fluid .contact-box .contact-address {
+    padding: 32px 0;
+  }
+  #contact .container-fluid .contact-box .contact-address p {
+    font-size: 18px;
+  }
+  #contact .container-fluid .contact-box .contact-address h2 {
+    font-size: 36px;
+    padding-bottom: 25px;
+  }
+  #contact .container-fluid .contact-box .contact-address .contact-number {
+    padding-bottom: 25px;
+  }
+  #contact .container-fluid .contact-box .contact-address .contact-number p {
+    font-size: 16px;
+  }
+  #contact .container-fluid .contact-box .contact-address .contact-email {
+    padding-bottom: 25px;
+  }
+  #contact .container-fluid .contact-box .contact-address .contact-email p {
+    font-size: 16px;
+  }
+  #contact .container-fluid .contact-box .contact-address .location a {
+    font-size: 16px;
+  }
+  #contact .container-fluid .contact-box .contact-form {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #contact .container-fluid .contact-box .contact-form .form {
+    width: 68%;
+    padding: 35px;
+  }
+  #contact .container-fluid .contact-box .contact-form .form div {
+    width: 100%;
+  }
+  #contact .container-fluid .contact-box .contact-form .form div label {
+    width: 220px;
+  }
+  #contact .container-fluid .contact-box .contact-form .form div input {
+    width: 349px;
+  }
+  #contact .container-fluid .contact-box .contact-form .form div textarea {
+    width: 349px;
+  }
+  #contact .container-fluid .contact-box .contact-form .form .submit button {
+    margin: 0px auto;
+  }
+  #contact .container-fluid .contact-box .contact-form .sharp-logo {
+    position: absolute;
+    bottom: 31px;
+    left: 2%;
+    width: 100px;
+    height: 80px;
+  }
+  #contact .container-fluid .container2 {
+    padding: 0 16px;
+  }
+  #contact .container-fluid .container2 #news {
+    padding-top: 32px;
+  }
+  #contact .container-fluid .container2 #events .swiper .swiper-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #contact .container-fluid .container2 #events .swiper .swiper-wrapper .swiper-slide .event-img {
+    width: 100%;
+  }
+  #contact .container-fluid .container2 #events .swiper .swiper-wrapper .swiper-slide .event-img img {
+    width: 100%;
+  }
+  footer .container {
+    padding: 0 24px;
+  }
+  footer .container .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container .footer .logo {
+    margin-bottom: 25px;
+    margin-right: 27px;
+  }
+  footer .container .footer .social {
+    margin-left: 0;
+    height: 32px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #introduction {
+    overflow-x: hidden;
+  }
+  #introduction .container {
+    padding: 0 16px;
+  }
+  #introduction .container .introduction-content {
+    margin-top: 56px;
+  }
+  #introduction .container .introduction-content .list-services p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #introduction .container .introduction-content h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  #introduction .container .introduction-content h1 br {
+    display: none;
+  }
+  #introduction .container .introduction-content .card-services {
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin: 0;
+  }
+  #introduction .container .introduction-content .card-services .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  #introduction .container .introduction-content .card-services .cards .graphic {
+    padding-bottom: 20px;
+  }
+  #introduction .container .introduction-content .card-services .cards a {
+    margin: 0;
+  }
+  #introduction .container .introduction-content .card-services .cards a .card {
+    margin: 0;
+  }
+  #introduction .container .introduction-content .card-services .cards a .card .union {
+    display: none;
+  }
+  #introduction .container .introduction-content .card-services .cards a .card .onion {
+    display: none;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .container-fluid .container2 {
+    padding: 0 16px;
+    width: 100%;
+  }
+  .container-fluid .container2 .brand-logo {
+    display: none;
+  }
+  .container-fluid .container2 #our-partners {
+    padding-top: 40px;
+  }
+  .container-fluid #teacher {
+    margin: 72px 16px;
+  }
+  .container-fluid #teacher .trainers-img .event-bcg-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-fluid .container2 #tab {
+    margin-top: 48px;
+  }
+  .container-fluid .container2 #tab .title-program h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .container-fluid .container2 #tab .tabs-wrapper ul {
+    width: 100%;
+    gap: 23px;
+  }
+  .container-fluid .container2 #tab .tabs-wrapper ul li {
+    font-size: 13px;
+  }
+  .container-fluid .container2 #tab .tab-content .is-active {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-fluid .container2 #tab .tab-content .is-active .programming {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-fluid .container2 #tab .tab-content .is-active .programming .description {
+    width: 100%;
+  }
+  .container-fluid .container2 #tab .tab-content .is-active .programming .video {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #contact .container-fluid {
+    width: 100%;
+  }
+  #contact .container-fluid .container2 {
+    padding: 32px 16px;
+  }
+  #contact .container-fluid .container2 .contact-address p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  #contact .container-fluid .container2 .contact-address h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  #contact .container-fluid .container2 .contact-address .contact-number a {
+    font-size: 14px;
+  }
+  #contact .container-fluid .container2 .contact-address .contact-email a {
+    font-size: 14px;
+  }
+  #contact .container-fluid .container2 .contact-address .location a {
+    font-size: 14px;
+  }
+  #contact .container-fluid .container2 .contact-form .form {
+    width: 100%;
+  }
+  #contact .container-fluid .container2 .contact-form .form div {
+    width: 100%;
+  }
+  #contact .container-fluid .container2 .contact-form .form div input {
+    width: 100%;
+    padding: 9px;
+  }
+  #contact .container-fluid .container2 .contact-form .form div textarea {
+    width: 100%;
+    padding: 9px;
+  }
+  #contact .container-fluid .container2 .contact-form .form .submit button {
+    margin: 0;
+  }
+  footer {
+    padding: 48px 16px;
+  }
+  footer .container {
+    padding: 0;
+  }
+  footer .container .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container .footer div:not(:last-child) {
+    margin-bottom: 48px;
+    margin-left: 0;
+  }
+  footer .container .footer .logo {
+    margin-right: 18px;
+  }
+  footer .container .footer .social {
+    height: 32px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #students {
+    padding: 0 20px 32px;
+  }
+  #students .swiper .swiper-wrapper .student-box .student {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-img {
+    width: 100%;
+    padding: 10px;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-img .primary {
+    display: block;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-info {
+    width: 100%;
+  }
+  #students .swiper .swiper-wrapper .student-box .student .student-info .student-info-profile {
+    padding-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #contact .container-fluid .contact-box .contact-form .form {
+    padding: 48px 24px 56px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info {
+    left: 20px;
+    bottom: -55px;
+    padding: 0 7px;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info .position p {
+    margin: 0;
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info .position .social {
+    transform: translateY(-4px);
+  }
+  .container-fluid #teacher .trainers-img .parent .trainerSwiper .event-img .trainer-info .position .social img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .copyright p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #introduction .container .introduction-content h1 {
+    font-size: 24px;
+  }
+}
+#about .about-main .about-content p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 330px) {
+  .container-fluid .container2 #tab .tabs-wrapper ul {
+    gap: 19px;
+  }
+  .container-fluid .container2 #tab .tabs-wrapper ul li {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .container-fluid .container2 {
+    padding: 0 5px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #introduction .container .introduction-content h1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .container-fluid .container2 #tab .tabs-wrapper ul {
+    gap: 12px;
+  }
+  .container-fluid .container2 #tab .tab-panel .programming .description .buttons .apply {
+    padding: 9px 7px !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #students {
+    padding: 0 0 32px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .trainer-info {
+    padding: 0 46px !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .form {
+    padding: 9px !important;
+  }
+  .form .submit .submit-inp {
+    width: 150px !important;
+  }
+  .sharp-logo {
+    bottom: -40px !important;
+    left: -6% !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .copyright p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=media.css.map */

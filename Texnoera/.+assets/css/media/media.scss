@@ -1,0 +1,812 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0 26px;
+  }
+  #introduction {
+    .introduction-content {
+      .card-services {
+        .cards {
+          a {
+            .card-programming {
+              padding-left: 8px;
+            }
+
+            .onion {
+              width: 109px;
+              left: 24%;
+              bottom: 90px;
+              img {
+                width: 115px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #tab {
+    .tab-panel {
+      .programming {
+        .video {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  #contact {
+    .contact-box {
+      column-gap: 10px;
+      .contact-address {
+        .contact-info {
+          font-size: 18px;
+        }
+      }
+      .contact-form {
+        .sharp-logo {
+          bottom: 136px;
+        }
+      }
+    }
+  }
+  #students {
+    padding: 72px 20px;
+  }
+  #teacher {
+    .trainers-img {
+      .parent {
+        .event-bcg-img {
+          .frame {
+            left: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #introduction {
+    .container {
+      margin: 0 auto;
+      max-width: 720px;
+      padding: 0;
+      .header {
+        header {
+          nav {
+            display: none;
+          }
+          #subMenu {
+            display: block;
+          }
+        }
+      }
+      .introduction-content {
+        .list-services {
+          width: 100%;
+        }
+        h1 {
+          font-size: 32px;
+          line-height: 1.5;
+        }
+        .card-services {
+          width: 100%;
+          .cards {
+            width: 50%;
+            display: flex;
+            flex-direction: column-reverse;
+            a {
+              width: 100%;
+              div {
+                width: 100%;
+                margin-bottom: 15px;
+                transform: rotate(0deg);
+                top: 0;
+                .onion {
+                  width: 250px;
+                  position: absolute;
+                  left: 32.6%;
+                  top: 15px;
+                  img {
+                    position: relative;
+                    left: 25%;
+                    bottom: 187px;
+                    transform: rotate(90deg);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #about {
+    .about-main {
+      display: flex;
+      flex-direction: column;
+      gap: 56px;
+      .about-video {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // Brand Section
+
+  .container-fluid {
+    margin: 0 auto;
+    width: 720px;
+    .container2 {
+      padding: 0 16px;
+      #our-partners {
+        .partners {
+          display: none;
+        }
+      }
+
+      // Tab-Services Section
+      #tab {
+        margin-top: 65px;
+        .tabs-wrapper {
+          ul {
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+        .tab-content {
+          .tab-panel {
+            .programming {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              .description {
+                width: 50%;
+                padding: 0;
+                .buttons {
+                  display: flex;
+                  align-items: center;
+                  .apply {
+                    padding: 16px 31px;
+                  }
+                  .more {
+                    padding: 0;
+                  }
+                }
+                h3 {
+                  font-size: 18px;
+                }
+                p {
+                  font-size: 14px;
+                }
+              }
+              .video {
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                .video-border {
+                  width: 100%;
+                  border-radius: 12px;
+                  img {
+                    width: 100%;
+                    object-fit: cover;
+                  }
+                }
+                .author-video {
+                  width: 100%;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #teacher {
+      margin: 35px 16px;
+      padding-bottom: 35px;
+      .trainers-img {
+        .parent {
+          .trainerSwiper {
+            .event-img {
+              img {
+                border-radius: 10px;
+              }
+              .trainer-info {
+                position: absolute;
+                bottom: 24px;
+                left: 0;
+                width: 100%;
+                padding: 0 20px;
+                .position {
+                  display: flex;
+                  width: 100%;
+                  justify-content: space-between;
+                  gap: 0;
+                  .social {
+                    img {
+                      border-radius: 0;
+                      margin-top: 1px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .event-bcg-img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // Students section
+  #students {
+    margin: 0 auto;
+    padding: 32px 20px;
+    .swiper {
+      .swiper-wrapper {
+        .student-box {
+          .student {
+            height: 100%;
+            padding: 0;
+            .student-img {
+              width: 50%;
+              height: 414px;
+              img {
+                width: 100%;
+              }
+            }
+            .student-info {
+              padding: 0 16px;
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Contact
+  #contact {
+    .container-fluid {
+      margin: 0 auto;
+      width: 720px;
+      .contact-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .contact-address {
+          padding: 32px 0;
+          p {
+            font-size: 18px;
+          }
+          h2 {
+            font-size: 36px;
+            padding-bottom: 25px;
+          }
+          .contact-number {
+            padding-bottom: 25px;
+            p {
+              font-size: 16px;
+            }
+          }
+          .contact-email {
+            padding-bottom: 25px;
+            p {
+              font-size: 16px;
+            }
+          }
+          .location {
+            a {
+              font-size: 16px;
+            }
+          }
+        }
+        .contact-form {
+          width: 100%;
+          padding-bottom: 20px;
+          .form {
+            width: 68%;
+            padding: 35px;
+            div {
+              width: 100%;
+              label {
+                width: 220px;
+              }
+              input {
+                width: 349px;
+              }
+              textarea {
+                width: 349px;
+              }
+            }
+            .submit {
+              button {
+                margin: 0px auto;
+              }
+            }
+          }
+          .sharp-logo {
+            position: absolute;
+            bottom: 31px;
+            left: 2%;
+            width: 100px;
+            height: 80px;
+          }
+        }
+      }
+      // Events Section
+      .container2 {
+        padding: 0 16px;
+        #news {
+          padding-top: 32px;
+        }
+        #events {
+          .swiper {
+            .swiper-wrapper {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              .swiper-slide {
+                .event-img {
+                  width: 100%;
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // footer
+  footer {
+    .container {
+      padding: 0 24px;
+      .footer {
+        display: flex;
+        flex-direction: column;
+        .logo {
+          margin-bottom: 25px;
+          margin-right: 27px;
+        }
+        .social {
+          margin-left: 0;
+          height: 32px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+// media for 480px
+
+// introduction
+@media only screen and (max-width: 480px) {
+  #introduction {
+    overflow-x: hidden;
+    .container {
+      padding: 0 16px;
+      .introduction-content {
+        margin-top: 56px;
+        .list-services {
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+        h1 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+          br {
+            display: none;
+          }
+        }
+        .card-services {
+          display: flex;
+          flex-direction: column;
+          padding-top: 72px;
+          padding-bottom: 72px;
+          margin: 0;
+          .cards {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+            .graphic {
+              padding-bottom: 20px;
+            }
+            a {
+              margin: 0;
+              .card {
+                margin: 0;
+                .union {
+                  display: none;
+                }
+                .onion {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .container-fluid {
+    width: 100%;
+    .container2 {
+      padding: 0 16px;
+      width: 100%;
+      .brand-logo {
+        display: none;
+      }
+      #our-partners {
+        padding-top: 40px;
+      }
+    }
+    #teacher {
+      margin: 72px 16px;
+      .trainers-img {
+        .event-bcg-img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// Tab-Services Section
+@media only screen and (max-width: 480px) {
+  .container-fluid {
+    .container2 {
+      #tab {
+        margin-top: 48px;
+        .title-program {
+          h2 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+          }
+        }
+        .tabs-wrapper {
+          ul {
+            width: 100%;
+            gap: 23px;
+            li {
+              font-size: 13px;
+            }
+          }
+        }
+        .tab-content {
+          .is-active {
+            display: flex;
+            flex-direction: column;
+            .programming {
+              display: flex;
+              flex-direction: column;
+              .description {
+                width: 100%;
+              }
+              .video {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// contact
+@media only screen and (max-width: 480px) {
+  #contact {
+    .container-fluid {
+      width: 100%;
+      .container2 {
+        padding: 32px 16px;
+        .contact-address {
+          p {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+          }
+          h2 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+          }
+          .contact-number {
+            a {
+              font-size: 14px;
+            }
+          }
+          .contact-email {
+            a {
+              font-size: 14px;
+            }
+          }
+          .location {
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+        .contact-form {
+          .form {
+            width: 100%;
+            div {
+              width: 100%;
+              input {
+                width: 100%;
+                padding: 9px;
+              }
+              textarea {
+                width: 100%;
+                padding: 9px;
+              }
+            }
+            .submit {
+              button {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    padding: 48px 16px;
+    .container {
+      padding: 0;
+      .footer {
+        display: flex;
+        flex-direction: column;
+        div {
+          &:not(:last-child) {
+            margin-bottom: 48px;
+            margin-left: 0;
+          }
+        }
+        .logo {
+          margin-right: 18px;
+        }
+        .social {
+          height: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #students {
+    padding: 0 20px 32px;
+    .swiper {
+      .swiper-wrapper {
+        .student-box {
+          .student {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .student-img {
+              width: 100%;
+              padding: 10px;
+              .primary {
+                display: block;
+              }
+            }
+            .student-info {
+              width: 100%;
+              .student-info-profile {
+                padding-bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// media for 375px
+
+@media only screen and (max-width: 375px) {
+  #contact {
+    .container-fluid {
+      .contact-box {
+        .contact-form {
+          .form {
+            padding: 48px 24px 56px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container-fluid {
+    #teacher {
+      .trainers-img {
+        .parent {
+          .trainerSwiper {
+            .event-img {
+              .trainer-info {
+                left: 20px;
+                bottom: -55px;
+                padding: 0 7px;
+                .position {
+                  p {
+                    margin: 0;
+                  }
+                  .social {
+                    transform: translateY(-4px);
+                    img {
+                      width: 100%;
+                      height: 100%;
+                      object-fit: contain;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .copyright {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+// media for 330px
+
+@media only screen and (max-width: 330px) {
+  #introduction {
+    .container {
+      .introduction-content {
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+#about {
+  .about-main {
+    .about-content {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .container-fluid {
+    .container2 {
+      #tab {
+        .tabs-wrapper {
+          ul {
+            gap: 19px;
+            li {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// media for 300px
+
+@media only screen and (max-width: 300px) {
+  .container-fluid {
+    .container2 {
+      padding: 0 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #introduction {
+    .container {
+      .introduction-content {
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container-fluid {
+    .container2 {
+      #tab {
+        .tabs-wrapper {
+          ul {
+            gap: 12px;
+          }
+        }
+        .tab-panel {
+          .programming {
+            .description {
+              .buttons {
+                .apply {
+                  padding: 9px 7px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and(max-width: 300px) {
+  #students {
+    padding: 0 0 32px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .trainer-info {
+    padding: 0 46px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .form {
+    padding: 9px !important;
+    .submit {
+      .submit-inp {
+        width: 150px !important;
+      }
+    }
+  }
+  .sharp-logo {
+    bottom: -40px !important;
+    left: -6% !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .copyright {
+    p {
+      text-align: center;
+    }
+  }
+}
